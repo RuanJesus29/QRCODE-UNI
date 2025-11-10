@@ -3,40 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentação UNIMIL / ARV</title>
+    <title>MÁQUINA SEMIAUTOMÁTICA DE CHARLYN</title>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
             background: #0b0b0b;
             color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+            font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 25px;
+        }
+
+        .logos img {
+            height: 70px;
         }
 
         h1 {
             font-size: 22px;
+            margin-top: 25px;
             margin-bottom: 40px;
-            line-height: 28px;
+        }
+
+        .btns {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
 
         .btn {
-            width: 85%;
-            max-width: 300px;
-            padding: 16px;
+            padding: 18px 24px;
+            border: 2px solid white;
             border-radius: 10px;
-            margin-bottom: 22px;
-            font-size: 18px;
-            font-weight: bold;
             text-decoration: none;
             color: white;
-            border: 2px solid white;
-            display: block;
+            font-size: 17px;
+            font-weight: bold;
+            width: 160px;
         }
 
         .btn:hover {
@@ -47,15 +57,23 @@
 </head>
 <body>
 
-    <h1>DOCUMENTAÇÃO MÁQUINA<br>PARA MONTAGEM SEMIAUTOMÁTICA DE CHARLYN</h1>
+    <div class="logos">
+        <img src="unimil.png">
+        <img src="arv.png">
+    </div>
 
-    <a class="btn" href="https://drive.google.com/drive/folders/1r4UzjTY1gAsI3yr7zOOJWvPFgqDmr2Ao?usp=sharing" target="_blank">
-        ABRIR VIA GOOGLE DRIVE
-    </a>
+    <h1>MÁQUINA SEMIAUTOMÁTICA DE CHARLYN</h1>
 
-    <a class="btn" href="https://1drv.ms/f/c/c2e9a36b8d85b353/Ene2BmQ3q2FGtXGjpC-qafUBCoqokrI8ctHzNkb4DeepJQ?e=MMzpoA" target="_blank">
-        ABRIR VIA ONE DRIVE
-    </a>
+    <div class="btns">
+        <a class="btn" href="https://drive.google.com/drive/folders/1r4UzjTY1gAsI3yr7zOOJWvPFgqDmr2Ao?usp=sharing" target="_blank">
+            GOOGLE DRIVE
+        </a>
+
+        <a class="btn" href="https://1drv.ms/f/c/c2e9a36b8d85b353/Ene2BmQ3q2FGtXGjpC-qafUBCoqokrI8ctHzNkb4DeepJQ?e=MMzpoA" target="_blank">
+            ONE DRIVE
+        </a>
+    </div>
 
 </body>
 </html>
+
